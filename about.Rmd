@@ -8,5 +8,5 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-This website was made using RStudio's `distill` package.
+This website was made using RStudio's `distill` package and is hosted via GitHub Pages.
 
