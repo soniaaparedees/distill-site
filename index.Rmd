@@ -1,7 +1,7 @@
 ---
 title: "My Website"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Welcome to my website. I hope you enjoy it!
 site: distill::distill_website
 ---
 
@@ -17,4 +17,9 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 My name is Sonia Paredes. I like to eat potato chips and watch movies.
+
+Here's a photo of me:
+
+![](images/ECON-Bulletin-Paredes-Sonia.png){width=200}
+
 

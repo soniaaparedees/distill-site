@@ -9,7 +9,8 @@ subtitle: |
       San Diego State University, Fall 2026
 bibliography: references.bib
 author: "Sonia Paredes"
-date: "2026-11-16"
+date: last-modified
+date-format: long
 csl: chicago-author-date.csl
 css: styles.css
 format:
@@ -43,7 +44,7 @@ Click [here](https://pkgs.rstudio.com/distill/articles/examples.html) for exampl
 
 
 There are many other packages and tools to create websites using R Markdown within RStudio,
-I just found `distill` to be fairly straightforward to use.
+I just found `distill` to be fairly straightforward to use and comes with lots of ready-built features and templates.
 
 ## Example: From class exercise to webpage
 
@@ -99,6 +100,7 @@ The following steps are drawn from Chapter 21 of the free online textbook [*rstu
 ## Create a GitHub repository
 1. Create a repository named `distill-site`, or choose another name.
 2. Leave the initialization options unchecked; a README can be added later.
+
 ::: {.r-stretch}
 <div class="single-image">
   <img src="images/github_repo.png" alt="GitHub repository page">
@@ -199,13 +201,25 @@ The site URL is typically: `<username>.github.io/<repository-name>`
 - [`distill` RStudio package webpage](https://pkgs.rstudio.com/distill/index.html)
 - [`distill` RStudio GitHub site](https://rstudio.github.io/distill/)
 
-If you'd like to use other packages or combine other Rmd website formatting into `distill` I suggest looking at these ones. There are certainly more but the last one especially also has links to R textbooks.
+If you'd like to use other packages or combine other Rmd website formatting into `distill` I suggest looking at these ones. Certainly not exhaustive, but ones that I like personally!
+
+- [R Markdown Basics](https://rmarkdown.rstudio.com/lesson-1.html)
 - [`blogdown`](https://pkg.yihui.org/blogdown/)
 - [`postcards`](https://github.com/seankross/postcards)
-- [`bookdown`](https://bookdown.org/)
+- [`bookdown`](https://bookdown.org/) -- this one also also has links to amazing free R textbooks.
 
 
 ## References
 
 ::: {#refs}
 :::
+
+
+## AI Use Disclosure
+
+No AI was used in the creation and development of the content.
+
+ChatGPT (Model GPT-5.6 Luna) was used in CSS and bibTeX formatting of the slides.
+
+All images and gifs are self-produced.
+

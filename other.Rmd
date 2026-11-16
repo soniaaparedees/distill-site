@@ -1,6 +1,7 @@
 ---
 title: "Other"
-date: "2026-11-05"
+date: "November 16, 2026"
+updated: "`r format(Sys.time(), '%B %d, %Y at %I:%M %p')`"
 ---
 
 ```{r setup, include=FALSE}
