@@ -5,6 +5,7 @@ title: |
   Using `distill` and GitHub Pages
 subtitle: |
       ECON 650: Statistical Tools for Economics
+      
       San Diego State University, Fall 2026
 bibliography: references.bib
 author: "Sonia Paredes"
@@ -37,6 +38,9 @@ It is part of the R Markdown ecosystem for creating computational documents in R
 - Keep authoring, analysis, and publishing in RStudio.
 - Turn an existing R Markdown project into a website with relatively little extra work.
 - Reduce the friction of documenting and presenting a data project.
+
+* There are many other packages and tools to create websites using R Markdown within RStudio,
+I just found distill to be fairly straightforward.
 
 ## Example: From class exercise to webpage
 

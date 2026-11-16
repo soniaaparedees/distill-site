@@ -1,0 +1,58 @@
+---
+title: "ECON 650 - In Class Exercise 8"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Question 1
+```{r q1}
+# Create the vector x
+x = c(1, 3, 5, 8, 10 , 14, 2, TRUE, FALSE, 1)
+
+# Show the vector x
+x
+
+# Check if the vector is numeric
+is.numeric(x)
+```
+## Question 2
+```{r q2}
+# Convert vector x to a character vector, keep the same name
+x = as.character(x)
+
+# Show the new x vector
+x
+
+# Show the new x vector type
+typeof(x)
+```
+
+## Question 3
+```{r q3}
+# Create a new vector y that includes elements in x that are not equal to 1
+y = x[x!="1"] # "1" as a chr since x is a chr right now
+
+# Show the new vector y
+y
+```
+
+## Question 4
+```{r q4}
+## Converting vector x to numeric and filling in the matrix by row
+Z = matrix(as.numeric(x), 5, 2, byrow = TRUE)
+
+## Showing the matrix Z
+Z
+```
+
+## Question 5
+```{r q5}
+# Single command to return the second and fourth element in the second column
+Z[c(2,4),2]
+
+```
+
+

@@ -5,7 +5,7 @@ description: |
 site: distill::distill_website
 ---
 
-```{r setup, include=FALSE}
+```{r setup, echo=TRUE}
 knitr::opts_chunk$set(echo = FALSE)
 
 # Learn more about creating websites with Distill at:
@@ -15,4 +15,6 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/publish_website.html#github-pages
 
 ```
+
+My name is Sonia Paredes. I like to eat potato chips and watch movies.
 
