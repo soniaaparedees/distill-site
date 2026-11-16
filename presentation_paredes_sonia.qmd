@@ -25,6 +25,8 @@ format:
 
 It is part of the R Markdown ecosystem for creating computational documents in R [@allaire2018distill].
 
+Click [here](https://pkgs.rstudio.com/distill/articles/examples.html) for example websites.
+
 ## What can `distill` do?
 
 - Reader-friendly typography for mobile devices
@@ -39,8 +41,9 @@ It is part of the R Markdown ecosystem for creating computational documents in R
 - Turn an existing R Markdown project into a website with relatively little extra work.
 - Reduce the friction of documenting and presenting a data project.
 
-* There are many other packages and tools to create websites using R Markdown within RStudio,
-I just found distill to be fairly straightforward.
+
+There are many other packages and tools to create websites using R Markdown within RStudio,
+I just found `distill` to be fairly straightforward to use.
 
 ## Example: From class exercise to webpage
 
@@ -94,7 +97,7 @@ The following steps are drawn from Chapter 21 of the free online textbook [*rstu
 - Git installed and configured
 
 ## Create a GitHub repository
-1. Create a repository named `distill-website`, or choose another name.
+1. Create a repository named `distill-site`, or choose another name.
 2. Leave the initialization options unchecked; a README can be added later.
 ::: {.r-stretch}
 <div class="single-image">
