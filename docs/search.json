@@ -6,14 +6,14 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\nThis website was made using RStudio’s distill package.\r\n\r\n\r\n\r\n",
-      "last_modified": "2026-11-16T13:55:00-08:00"
+      "last_modified": "2026-11-16T14:04:42-08:00"
     },
     {
       "path": "in_class_exercise_8_paredes_sonia.html",
       "title": "ECON 650 - In Class Exercise 8",
       "author": [],
       "contents": "\r\nQuestion 1\r\n\r\n\r\n# Create the vector x\r\nx = c(1, 3, 5, 8, 10 , 14, 2, TRUE, FALSE, 1)\r\n\r\n# Show the vector x\r\nx\r\n\r\n [1]  1  3  5  8 10 14  2  1  0  1\r\n\r\n# Check if the vector is numeric\r\nis.numeric(x)\r\n\r\n[1] TRUE\r\n\r\nQuestion 2\r\n\r\n\r\n# Convert vector x to a character vector, keep the same name\r\nx = as.character(x)\r\n\r\n# Show the new x vector\r\nx\r\n\r\n [1] \"1\"  \"3\"  \"5\"  \"8\"  \"10\" \"14\" \"2\"  \"1\"  \"0\"  \"1\" \r\n\r\n# Show the new x vector type\r\ntypeof(x)\r\n\r\n[1] \"character\"\r\n\r\nQuestion 3\r\n\r\n\r\n# Create a new vector y that includes elements in x that are not equal to 1\r\ny = x[x!=\"1\"] # \"1\" as a chr since x is a chr right now\r\n\r\n# Show the new vector y\r\ny\r\n\r\n[1] \"3\"  \"5\"  \"8\"  \"10\" \"14\" \"2\"  \"0\" \r\n\r\nQuestion 4\r\n\r\n\r\n## Converting vector x to numeric and filling in the matrix by row\r\nZ = matrix(as.numeric(x), 5, 2, byrow = TRUE)\r\n\r\n## Showing the matrix Z\r\nZ\r\n\r\n     [,1] [,2]\r\n[1,]    1    3\r\n[2,]    5    8\r\n[3,]   10   14\r\n[4,]    2    1\r\n[5,]    0    1\r\n\r\nQuestion 5\r\n\r\n\r\n# Single command to return the second and fourth element in the second column\r\nZ[c(2,4),2]\r\n\r\n[1] 8 1\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2026-11-16T13:55:02-08:00"
+      "last_modified": "2026-11-16T14:04:45-08:00"
     },
     {
       "path": "index.html",
@@ -21,7 +21,7 @@
       "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
       "contents": "\r\n\r\n\r\nknitr::opts_chunk$set(echo = FALSE)\r\n\r\n# Learn more about creating websites with Distill at:\r\n# https://rstudio.github.io/distill/website.html\r\n\r\n# Learn more about publishing to GitHub Pages at:\r\n# https://rstudio.github.io/distill/publish_website.html#github-pages\r\n\r\n\r\nMy name is Sonia Paredes. I like to eat potato chips and watch movies.\r\n\r\n\r\n\r\n",
-      "last_modified": "2026-11-16T13:55:04-08:00"
+      "last_modified": "2026-11-16T14:04:47-08:00"
     },
     {
       "path": "other.html",
@@ -29,7 +29,7 @@
       "author": [],
       "date": "2026-11-05",
       "contents": "\r\n\r\n\r\n\r\nR Markdown\r\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\r\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\r\n\r\n\r\nsummary(cars)\r\n\r\n     speed           dist       \r\n Min.   : 4.0   Min.   :  2.00  \r\n 1st Qu.:12.0   1st Qu.: 26.00  \r\n Median :15.0   Median : 36.00  \r\n Mean   :15.4   Mean   : 42.98  \r\n 3rd Qu.:19.0   3rd Qu.: 56.00  \r\n Max.   :25.0   Max.   :120.00  \r\n\r\nIncluding Plots\r\nYou can also embed plots, for example:\r\n\r\n\r\n\r\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot.\r\n\r\n\r\n\r\n",
-      "last_modified": "2026-11-16T13:55:07-08:00"
+      "last_modified": "2026-11-16T14:04:49-08:00"
     }
   ],
   "collections": []

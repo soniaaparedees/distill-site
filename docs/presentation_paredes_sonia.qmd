@@ -192,9 +192,15 @@ The site URL is typically: `<username>.github.io/<repository-name>`
 ## Other useful resources
 
 - [rstudio4edu](https://rstudio4edu.github.io/rstudio4edu-book/make-distill.html)
-- [Distill package documentation](https://cran.r-project.org/web/packages/distill/index.html)
-- [Distill RStudio package webpage](https://pkgs.rstudio.com/distill/index.html)
-- [Distill RStudio GitHub site](https://rstudio.github.io/distill/)
+- [`distill` package documentation](https://cran.r-project.org/web/packages/distill/index.html)
+- [`distill` RStudio package webpage](https://pkgs.rstudio.com/distill/index.html)
+- [`distill` RStudio GitHub site](https://rstudio.github.io/distill/)
+
+If you'd like to use other packages or combine other Rmd website formatting into `distill` I suggest looking at these ones. There are certainly more but the last one especially also has links to R textbooks.
+- [`blogdown`](https://pkg.yihui.org/blogdown/)
+- [`postcards`](https://github.com/seankross/postcards)
+- [`bookdown`](https://bookdown.org/)
+
 
 ## References
 
