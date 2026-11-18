@@ -1,25 +1,12 @@
 ---
 title: "My Website"
 description: |
-  Welcome to my website. I hope you enjoy it!
+  Welcome to my website! I built this using the `distill` package in RStudio.
+  Head to [Presentation Slides](https://soniaaparedees.github.io/distill-site/slides.html) for a how-to on building your own.
 site: distill::distill_website
 ---
 
-```{r setup, echo=TRUE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
-```
-
 My name is Sonia Paredes. I like to eat potato chips and watch movies.
 
-Here's a photo of me:
-
-![](images/ECON-Bulletin-Paredes-Sonia.png){width=200}
-
+![](images/ECON-Bulletin-Paredes-Sonia.png){width=100px}
 

@@ -9,8 +9,6 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "In-Class Exercise"
-      href: in_class_exercise_8_paredes_sonia.html
-    - text: "Resources"
-      href: other.html  
+    - text: "Presentation Slides"
+      href: slides.html  
 output: distill::distill_article

@@ -1,0 +1,22 @@
+---
+title: "ECON 650 Presentation Slides"
+description: |
+  Last updated `r format(Sys.time(), '%B %d, %Y at %I:%M %p %Z')`
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, results = "asis", echo = FALSE}
+htmltools::tags$iframe(
+  title = "Embedded Document",
+  src = "presentation_paredes_sonia.html",
+  width = "100%",
+  height = "500px",
+  `data-external` = "1",
+  style = "border:none;"
+)
+```
+
