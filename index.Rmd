@@ -1,5 +1,5 @@
 ---
-title: "My Website"
+title: "Sonia Paredes"
 description: |
   Welcome to my website! I built this using the `distill` package in RStudio.
   Head to [Presentation Slides](https://soniaaparedees.github.io/distill-site/slides.html) for a how-to on building your own.

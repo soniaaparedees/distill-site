@@ -10,8 +10,8 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Sonia Paredes">
-  <meta name="dcterms.date" content="2026-11-16">
-  <title>quarto-inputab8f84ce516cee9d</title>
+  <meta name="dcterms.date" content="2026-11-18">
+  <title>quarto-input9cef77644b07f489</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -122,7 +122,7 @@
       margin-left: 2em;
     }  </style>
   <link rel="stylesheet" href="presentation_paredes_sonia_files/libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="presentation_paredes_sonia_files/styles.css">
   <link href="presentation_paredes_sonia_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="presentation_paredes_sonia_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="presentation_paredes_sonia_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -233,7 +233,7 @@ Sonia Paredes
 </div>
 </div>
 
-  <p class="date">November 16, 2026</p>
+  <p class="date">November 18, 2026</p>
 </section>
 <section id="what-is-distill" class="slide level2">
 <h2>What is <code>distill</code>?</h2>
@@ -264,7 +264,7 @@ Sonia Paredes
 <h2>Example: From class exercise to webpage</h2>
 <p>An in-class R Markdown exercise can become a shareable webpage.</p>
 
-<img src="images/in_class_exercise.png" alt="In-Class Exercise to Webpage" class="r-stretch"></section>
+<img src="presentation_paredes_sonia_files/images/in_class_exercise.png" alt="In-Class Exercise to Webpage" class="r-stretch"></section>
 <section id="why-make-a-personal-website" class="slide level2">
 <h2>Why make a personal website?</h2>
 <p>A personal website is essentially a digital calling card.</p>
@@ -311,11 +311,11 @@ Sonia Paredes
 <li>Leave the initialization options unchecked; a README can be added later.</li>
 </ol>
 
-<img src="images/github_repo.png" alt="GitHub repository page" class="r-stretch"></section>
+<img src="presentation_paredes_sonia_files/images/github_repo.png" alt="GitHub repository page" class="r-stretch"></section>
 <section id="copy-the-repository-url" class="slide level2">
 <h2>Copy the repository URL</h2>
 
-<img src="images/copy_repo.png" alt="Copy repository URL" class="r-stretch"></section>
+<img src="presentation_paredes_sonia_files/images/copy_repo.png" alt="Copy repository URL" class="r-stretch"></section>
 <section id="create-an-r-project-with-the-repository-in-rstudio" class="slide level2">
 <h2>Create an R project with the repository in RStudio</h2>
 <ol type="1">
@@ -323,7 +323,7 @@ Sonia Paredes
 <li>Paste the repository URL and choose a local directory.</li>
 </ol>
 
-<img src="images/clone.gif" alt="Cloning the repository in RStudio" class="r-stretch"></section>
+<img src="presentation_paredes_sonia_files/images/clone.gif" alt="Cloning the repository in RStudio" class="r-stretch"></section>
 <section id="install-and-load-the-distill-package" class="slide level2">
 <h2>Install and load the <code>distill</code> package</h2>
 <p>Once the project is initialized, install and load the <code>distill</code> package by running the following code in the console.</p>
@@ -348,7 +348,12 @@ Sonia Paredes
 <li>Preview the rendered site in RStudio’s HTML viewer.</li>
 </ol>
 
-<img src="images/build.gif" alt="Building and previewing the website" class="r-stretch"></section>
+<img src="presentation_paredes_sonia_files/images/build.gif" alt="Building and previewing the website" class="r-stretch"><p>Alternatively, you can run the built-in rmarkdown function:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="" aria-hidden="true" tabindex="-1"></a>rmarkdown<span class="sc">::</span><span class="fu">render_site</span>(<span class="at">encoding =</span> <span class="st">'UTF-8'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>It will create a <code>docs</code> folder and temporarily a <code>site_libs</code> folder. Delete these if you wish to rebuild your site from this function. Otherwise, once built, any edits should show up if you just knit your files to html.</p>
+</section>
 <section id="commit-and-push" class="slide level2">
 <h2>Commit and push</h2>
 <ol type="1">
@@ -357,7 +362,7 @@ Sonia Paredes
 <li>Push the commit to GitHub.</li>
 </ol>
 
-<img src="images/commit.gif" alt="Committing and pushing changes" class="r-stretch"></section>
+<img src="presentation_paredes_sonia_files/images/commit.gif" alt="Committing and pushing changes" class="r-stretch"></section>
 <section id="configure-github-pages-and-deploy" class="slide level2">
 <h2>Configure GitHub Pages and deploy</h2>
 <ol type="1">
@@ -368,7 +373,7 @@ Sonia Paredes
 </ol>
 <p>The site URL is typically: <code>&lt;username&gt;.github.io/&lt;repository-name&gt;</code></p>
 
-<img src="images/deploy.gif" alt="Configuring GitHub Pages deployment" class="r-stretch"></section>
+<img src="presentation_paredes_sonia_files/images/deploy.gif" alt="Configuring GitHub Pages deployment" class="r-stretch"></section>
 <section id="make-it-your-own" class="slide level2">
 <h2>Make it your own</h2>
 <ul>

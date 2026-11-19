@@ -1,7 +1,7 @@
 name: "distill-site"
-title: "My Website"
+title: "Sonia Paredes"
 description: |
-  My Website
+  ECON 650 course website and presentation
 output_dir: "docs"
 navbar:
   right:

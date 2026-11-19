@@ -7,12 +7,12 @@ subtitle: |
       ECON 650: Statistical Tools for Economics
       
       San Diego State University, Fall 2026
-bibliography: references.bib
+bibliography: presentation_paredes_sonia_files/references.bib
 author: "Sonia Paredes"
 date: last-modified
 date-format: long
-csl: chicago-author-date.csl
-css: styles.css
+csl: presentation_paredes_sonia_files/chicago-author-date.csl
+css: presentation_paredes_sonia_files/styles.css
 format:
   revealjs:
     slide-number: true
@@ -52,7 +52,7 @@ An in-class R Markdown exercise can become a shareable webpage.
 
 ::: {.r-stretch}
 <div class="single-image">
-  <img src="images/in_class_exercise.png"
+  <img src="presentation_paredes_sonia_files/images/in_class_exercise.png"
        alt="In-Class Exercise to Webpage">
 </div>
 :::
@@ -103,14 +103,14 @@ The following steps are drawn from Chapter 21 of the free online textbook [*rstu
 
 ::: {.r-stretch}
 <div class="single-image">
-  <img src="images/github_repo.png" alt="GitHub repository page">
+  <img src="presentation_paredes_sonia_files/images/github_repo.png" alt="GitHub repository page">
 </div>
 :::
 
 ## Copy the repository URL
 ::: {.r-stretch}
 <div class="single-image">
-  <img src="images/copy_repo.png" alt="Copy repository URL">
+  <img src="presentation_paredes_sonia_files/images/copy_repo.png" alt="Copy repository URL">
 </div>
 :::
 
@@ -121,7 +121,7 @@ The following steps are drawn from Chapter 21 of the free online textbook [*rstu
 
 ::: {.r-stretch}
 <div class="single-image">
-  <img src="images/clone.gif"
+  <img src="presentation_paredes_sonia_files/images/clone.gif"
        alt="Cloning the repository in RStudio">
 </div>
 :::
@@ -153,10 +153,19 @@ distill::create_website(dir = getwd(), gh_pages = TRUE)
 
 ::: {.r-stretch}
 <div class="single-image">
-  <img src="images/build.gif"
+  <img src="presentation_paredes_sonia_files/images/build.gif"
        alt="Building and previewing the website">
 </div>
 :::
+
+Alternatively, you can run the built-in rmarkdown function:
+```{r, eval = FALSE, echo = TRUE}
+rmarkdown::render_site(encoding = 'UTF-8')
+```
+
+It will create a `docs` folder and temporarily a `site_libs` folder.
+Delete these if you wish to rebuild your site from this function.
+Otherwise, once built, any edits should show up if you just knit your files to html.
 
 ## Commit and push
 
@@ -166,7 +175,7 @@ distill::create_website(dir = getwd(), gh_pages = TRUE)
 
 ::: {.r-stretch}
 <div class="single-image">
-  <img src="images/commit.gif"
+  <img src="presentation_paredes_sonia_files/images/commit.gif"
        alt="Committing and pushing changes">
 </div>
 :::
@@ -182,7 +191,7 @@ The site URL is typically: `<username>.github.io/<repository-name>`
 
 ::: {.r-stretch}
 <div class="single-image">
-  <img src="images/deploy.gif"
+  <img src="presentation_paredes_sonia_files/images/deploy.gif"
        alt="Configuring GitHub Pages deployment">
 </div>
 :::
