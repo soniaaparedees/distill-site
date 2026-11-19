@@ -1,5 +1,4 @@
-# ECON 650 Distill Website
-
+# ECON 650 Presentation: Building a Personal Website Using RStudio's `distill` Package
 Presentation for Fall 2026 ECON 650 at San Diego State University by Sonia Paredes.
 
 **Live site:** https://soniaaparedees.github.io/distill-site/
@@ -8,7 +7,7 @@ Presentation for Fall 2026 ECON 650 at San Diego State University by Sonia Pared
 
 - `index.Rmd` - Home page
 - `about.Rmd` - About page
-- `slides.Rmd` - Distill wrapper for the embedded presentation
+- `slides.Rmd` - Page for the embedded presentation
 - `in_class_exercise_8_paredes_sonia.Rmd` - In-class exercise Upload Example
 - `presentation_paredes_sonia.qmd` - Quarto Reveal.js presentation source
 
