@@ -15,9 +15,7 @@ Presentation for Fall 2026 ECON 650 at San Diego State University by Sonia Pared
 ## Project layout
 
 - `_site.yml` - Distill website configuration and navigation
-- `styles.css` - Shared presentation and site styling
 - `images/` - Images used by the source documents
-- `references.bib` and `chicago-author-date.csl` - Presentation references and citation style
 - `docs/` - Generated website published by GitHub Pages
 - `presentation_paredes_sonia_files/` - Generated Quarto presentation dependencies
 
