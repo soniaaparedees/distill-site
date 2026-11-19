@@ -1,6 +1,6 @@
 # ECON 650 Distill Website
 
-Personal course website and presentation for ECON 650 at San Diego State University.
+Presentation for Fall 2026 ECON 650 at San Diego State University by Sonia Paredes.
 
 **Live site:** https://soniaaparedees.github.io/distill-site/
 
@@ -9,14 +9,14 @@ Personal course website and presentation for ECON 650 at San Diego State Univers
 - `index.Rmd` - Home page
 - `about.Rmd` - About page
 - `slides.Rmd` - Distill wrapper for the embedded presentation
-- `in_class_exercise_8_paredes_sonia.Rmd` - In-class exercise
+- `in_class_exercise_8_paredes_sonia.Rmd` - In-class exercise Upload Example
 - `presentation_paredes_sonia.qmd` - Quarto Reveal.js presentation source
 
 ## Project layout
 
 - `_site.yml` - Distill website configuration and navigation
 - `styles.css` - Shared presentation and site styling
-- `images/` - Images and GIFs used by the source documents
+- `images/` - Images used by the source documents
 - `references.bib` and `chicago-author-date.csl` - Presentation references and citation style
 - `docs/` - Generated website published by GitHub Pages
 - `presentation_paredes_sonia_files/` - Generated Quarto presentation dependencies
